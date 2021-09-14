@@ -1,0 +1,15 @@
+$main: #f6f4ea;
+$main-red: #d74850;
+$bg: #e5e5e5;
+$main-dark: #323441;
+$bg-card: #e4ddd3;
+
+
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
