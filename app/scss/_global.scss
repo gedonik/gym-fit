@@ -1,91 +1,96 @@
+html {
+	scroll-behavior: smooth;
+}
+
 html,
 body {
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.3;
-  background-color: $main;
-  color: $main;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.3;
+	background-color: $main;
+	color: $main;
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .main {
-  flex-grow: 1;
+	flex-grow: 1;
 }
 
 .container {
-  max-width: 1474px;
-  padding: 0 15px;
-  margin: 0 auto;
+	max-width: 1474px;
+	padding: 0 15px;
+	margin: 0 auto;
 }
 
 .title {
-  margin-bottom: 15px;
-  font-family: 'Titillium_Web', sans-serif;
-  font-size: 46px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1;
-  text-align: center;
-  color: $main-red;
+	margin-bottom: 15px;
+	font-family: 'Titillium_Web', sans-serif;
+	font-size: 46px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1;
+	text-align: center;
+	color: $main-red;
 
-  span {
-    position: relative;
-    color: $main-dark;
+	span {
+		position: relative;
+		color: $main-dark;
 
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: 10px;
-      left: 0;
-      width: 100%;
-      height: 3px;
-      background-color: $main-red;
-    }
-  }
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 10px;
+			left: 0;
+			width: 100%;
+			height: 3px;
+			background-color: $main-red;
+		}
+	}
 }
 
 .subtitle {
-  margin-bottom: 55px;
-  color: $main-dark;
-  text-align: center;
+	margin-bottom: 55px;
+	color: $main-dark;
+	text-align: center;
 }
 
 .btn {
-  position: relative;
-  padding: 10px 35px 10px 20px;
-  outline: transparent;
-  border-color: transparent;
-  background-color: $main-red;
-  color: $main;
-  cursor: pointer;
+	position: relative;
+	padding: 10px 35px 10px 20px;
+	outline: transparent;
+	border-color: transparent;
+	background-color: $main-red;
+	color: $main;
+	cursor: pointer;
 
-  svg {
-    margin-left: 20px;
-    fill: $main;
-  }
+	svg {
+		margin-left: 20px;
+		fill: $main;
+	}
 
-  &:hover,
-  &:hover svg {
-    color: $main-dark;
-    fill: $main-dark;
-  }
+	&:hover,
+	&:hover svg {
+		color: $main-dark;
+		fill: $main-dark;
+	}
 }
