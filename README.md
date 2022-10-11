@@ -24,6 +24,6 @@ https://gedonik.club/gym_fit/
 ## Screenshots
 
 ![App Screenshot](https://i.postimg.cc/Kv6b65Jf/gymfit1.jpg)
-![App Screenshot](https://i.postimg.cc/Kv6b65Jf/gymfit1.jpg)
-![App Screenshot](https://i.postimg.cc/Kv6b65Jf/gymfit1.jpg)
+![App Screenshot](https://i.postimg.cc/Kv6b65Jf/gymfit2.jpg)
+![App Screenshot](https://i.postimg.cc/Kv6b65Jf/gymfit3.jpg)
 
