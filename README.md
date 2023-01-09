@@ -19,7 +19,7 @@ HTML, CSS, SCSS, Gulp, Mixitup, Jquery, Slick-carousel.
 
 ## Demo
 
-https://gedonik.club/gym_fit/
+https://www.gedonik.ru/gym_fit/
 
 ## Screenshots
 
